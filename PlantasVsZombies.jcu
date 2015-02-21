@@ -24,7 +24,7 @@
 			<path>src\Principal.java</path>
 			<source>true</source>
 			<index>1</index>
-			<active>true</active>
+			<active>false</active>
 		</docitem>
 		<docitem>
 			<path>src\Plantas.java</path>
@@ -48,6 +48,24 @@
 			<path>src\ColaZombies.java</path>
 			<source>true</source>
 			<index>5</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>src\Jugador.java</path>
+			<source>true</source>
+			<index>6</index>
+			<active>true</active>
+		</docitem>
+		<docitem>
+			<path>src\ListaDatos.java</path>
+			<source>true</source>
+			<index>7</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>src\NodoDatos.java</path>
+			<source>true</source>
+			<index>8</index>
 			<active>false</active>
 		</docitem>
 	</open_files>

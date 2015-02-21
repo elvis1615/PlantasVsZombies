@@ -34,6 +34,18 @@
 				<folder>src</folder>
 			</fileitem>
 			<fileitem>
+				<path>src\Jugador.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\ListaDatos.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\NodoDatos.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
 				<path>src\NodoPlanta.java</path>
 				<folder>src</folder>
 			</fileitem>
