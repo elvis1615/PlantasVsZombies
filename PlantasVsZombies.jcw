@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>PlantasVsZombies</label>
+	</settings>
+	<users>
+		<user>
+			<path>PlantasVsZombies.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>PlantasVsZombies.jcp</path>
+		</project>
+	</projects>
+</workspace>
