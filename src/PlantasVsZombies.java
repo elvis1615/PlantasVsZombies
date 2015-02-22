@@ -10,7 +10,7 @@
 public class PlantasVsZombies {
     
     public static void main(String[] args) {
-  	Principal principal=new Principal();
+  //	Principal principal=new Principal();
     /*	ColaZombies hola=new ColaZombies();
     	boolean h= hola.estaVacia();
     	Plantas ola=new Plantas("ola1");
@@ -26,5 +26,8 @@ public class PlantasVsZombies {
     			System.out.println("se extrajo "+p.nombre);
     		}*/
     	   	
+
     }
+
+
 }

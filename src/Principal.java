@@ -36,7 +36,7 @@ public class Principal extends JFrame {
     	EliminarDatos.setBounds(370,150,150,30);
     	add(EliminarDatos);
     	
-    	setLocationRelativeTo(this);
+    	setLocationRelativeTo(null);
     	    	
     	}
     

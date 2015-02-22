@@ -24,7 +24,7 @@
 			<path>src\Principal.java</path>
 			<source>true</source>
 			<index>1</index>
-			<active>false</active>
+			<active>true</active>
 		</docitem>
 		<docitem>
 			<path>src\Plantas.java</path>
@@ -54,7 +54,7 @@
 			<path>src\Jugador.java</path>
 			<source>true</source>
 			<index>6</index>
-			<active>true</active>
+			<active>false</active>
 		</docitem>
 		<docitem>
 			<path>src\ListaDatos.java</path>
