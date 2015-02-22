@@ -9,7 +9,15 @@
 
 public class NodoMatriz {
 
+	ListaPlantas plantasEnNodo;
+	
+	NodoMatriz derecha;
+	NodoMatriz Izquierda;
+	NodoMatriz abajo;
+	NodoMatriz arriba;
+	
     public NodoMatriz() {
+    	plantasEnNodo=new ListaPlantas;
     }
     
     
