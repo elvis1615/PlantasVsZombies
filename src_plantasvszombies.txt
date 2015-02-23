@@ -10,3 +10,5 @@
 "C:\\Users\\Elvis\\Documents\\JCreator Pro\\MyProjects\\Practica1s12015_2012126012\\src\\Plantas.java"
 "C:\\Users\\Elvis\\Documents\\JCreator Pro\\MyProjects\\Practica1s12015_2012126012\\src\\PlantasVsZombies.java"
 "C:\\Users\\Elvis\\Documents\\JCreator Pro\\MyProjects\\Practica1s12015_2012126012\\src\\Principal.java"
+"C:\\Users\\Elvis\\Documents\\JCreator Pro\\MyProjects\\Practica1s12015_2012126012\\src\\tablero.java"
+"C:\\Users\\Elvis\\Documents\\JCreator Pro\\MyProjects\\Practica1s12015_2012126012\\src\\VentanaDatos.java"

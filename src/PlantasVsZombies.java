@@ -27,6 +27,9 @@ public class PlantasVsZombies {
     		}*/
     		
     	//	Juego j=new Juego();
+    	
+    	VentanaDatos n=new VentanaDatos();
+    	n.setVisible(true);
     	   	
 
     }
