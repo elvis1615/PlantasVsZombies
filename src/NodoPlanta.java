@@ -9,12 +9,12 @@
 
 public class NodoPlanta {
 	
-	private Plantas dato;
-	private NodoPlanta next;
+	Plantas dato;
+	NodoPlanta next;
 	
     public NodoPlanta(Plantas dato) {
     	this.dato=dato;
-    	
+    	next=null;
     }
     
     public Plantas getDato() {

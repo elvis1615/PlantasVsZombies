@@ -10,6 +10,7 @@
 public class ListaPlantas {
 	NodoPlanta inicio;
 	NodoPlanta Final;
+    
     public ListaPlantas() {
     	inicio=null;
     	Final=null;    	
@@ -31,12 +32,14 @@ public class ListaPlantas {
     {
     if(!estaVacia())
     	{
-    	Final.sig=new NodoPlanta(planta);
-    	Final=fin.sig;
+    	Final.next=new NodoPlanta(planta);
+    	Final=Final.next;
    	 	}
     else
     	{
-    	Cabeza=Final=new NodoPlanta(planta);
+    	Final=new NodoPlanta(planta);
+    	inicio=Final;
+    	
     	}	
 	}
     

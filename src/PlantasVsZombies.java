@@ -25,6 +25,8 @@ public class PlantasVsZombies {
     			Plantas p=hola.extraer();
     			System.out.println("se extrajo "+p.nombre);
     		}*/
+    		
+    	//	Juego j=new Juego();
     	   	
 
     }

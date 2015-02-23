@@ -34,6 +34,10 @@
 				<folder>src</folder>
 			</fileitem>
 			<fileitem>
+				<path>src\Juego.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
 				<path>src\Jugador.java</path>
 				<folder>src</folder>
 			</fileitem>
@@ -42,7 +46,15 @@
 				<folder>src</folder>
 			</fileitem>
 			<fileitem>
+				<path>src\ListaPlantas.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
 				<path>src\NodoDatos.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\NodoMatriz.java</path>
 				<folder>src</folder>
 			</fileitem>
 			<fileitem>
@@ -63,6 +75,10 @@
 			</fileitem>
 			<fileitem>
 				<path>src\Principal.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\tablero.java</path>
 				<folder>src</folder>
 			</fileitem>
 		</include>

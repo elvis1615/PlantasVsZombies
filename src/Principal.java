@@ -10,7 +10,7 @@
 
 public class Principal extends JFrame {
 	JButton jugPlantas, jugZombie,Comenzar,EliminarDatos;
-
+	
 
     public Principal() {
     	setLayout(null);
