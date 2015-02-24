@@ -7,6 +7,8 @@
  */
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class VentanaDatos extends JFrame {
 
@@ -69,6 +71,14 @@ public class VentanaDatos extends JFrame {
     	cancelar.setBounds(165,130,100,25);
     	nuevoDato.add(agrega);
     	nuevoDato.add(cancelar);
+    	
+    	cancelar.addActionListener(new ActionListener() {
+ 		public void actionPerformed(ActionEvent e)
+            {
+               nuevoDato.dispose();
+            }
+        }); 
+    	
     }
     
     void mostrar()
