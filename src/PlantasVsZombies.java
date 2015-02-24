@@ -30,6 +30,7 @@ public class PlantasVsZombies {
     	
     	VentanaDatos n=new VentanaDatos();
     	n.setVisible(true);
+    	n.mostrar();
     	   	
 
     }

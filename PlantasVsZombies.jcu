@@ -24,7 +24,7 @@
 			<path>src\Principal.java</path>
 			<source>true</source>
 			<index>1</index>
-			<active>true</active>
+			<active>false</active>
 		</docitem>
 		<docitem>
 			<path>src\Plantas.java</path>
@@ -91,6 +91,12 @@
 			<source>true</source>
 			<index>12</index>
 			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>src\VentanaDatos.java</path>
+			<source>true</source>
+			<index>13</index>
+			<active>true</active>
 		</docitem>
 	</open_files>
 </workspace_user>
