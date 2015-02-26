@@ -15,8 +15,7 @@ public class ListaDatos {
     public ListaDatos() {
     	Cabeza=null;
     	fin=null;
-    	insertar("nombre");
-    	insertar("Cantidad");
+    	
     }
     
     void insertar(String campo,String dato){
@@ -39,10 +38,12 @@ public class ListaDatos {
     		{
     			fin.sig=new NodoDatos(campo);
     			fin=fin.sig;
+    			System.out.println("1er insertado");
     		}
     	else
     		{
     		Cabeza=fin=new NodoDatos(campo);
+    		System.out.println("insertado");
     		}	
     	
     }

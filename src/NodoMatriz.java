@@ -14,14 +14,20 @@ public class NodoMatriz {
 	NodoMatriz Izquierda;
 	NodoMatriz abajo;
 	NodoMatriz arriba;
+	boolean activo;
 	
     public NodoMatriz() {
     	plantasEnNodo=new ListaPlantas();
+    	activo= false;
     	derecha=null;
     	Izquierda=null;
     	abajo=null;
     	arriba=null;
     }
+    
+   
+    
+    
     
     
 }

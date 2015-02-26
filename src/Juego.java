@@ -8,6 +8,8 @@
 
 import javax.swing.*;
 import java.awt.*;
+ import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Juego extends JFrame {
 
@@ -15,7 +17,24 @@ public class Juego extends JFrame {
 	Jugador zombies;
 	JPanel panel;
 	JPanel jugplantas,jugZombies;
-    public Juego() {
+	Jugador planta,zombie;
+	
+	
+    public Juego(Jugador planta,Jugador zombie) {
+    	
+    	this.plantas=planta;
+    	this.zombies=zombie;
+    	JMenuBar menu=new JMenuBar();
+    	JMenu m= new JMenu("File");
+    	JMenuItem r1=new JMenuItem("Reporte Tablero");
+    	
+    	m.add(r1);
+       	menu.add(m);
+    	setJMenuBar(menu);
+    	
+    	this.planta=planta;
+    	this.zombie=zombie;
+    	
     	setLayout(null);    	
     	setSize(1200,800);
     	setVisible(true);
@@ -38,7 +57,20 @@ public class Juego extends JFrame {
     	jugZombies.setOpaque(true);
     	
     	setDefaultCloseOperation(EXIT_ON_CLOSE);
+    	
+    	setVisible(true);
+    	
+    	
+    	
+    	r1.addActionListener(new ActionListener() {
+ 		public void actionPerformed(ActionEvent e)
+            {
+              System.out.println("ola k ase");
+            }
+        });
     }
+    
+    
     
     
 }

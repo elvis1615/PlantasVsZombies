@@ -3,6 +3,7 @@
 "C:\\Users\\Elvis\\Documents\\JCreator Pro\\MyProjects\\Practica1s12015_2012126012\\src\\Jugador.java"
 "C:\\Users\\Elvis\\Documents\\JCreator Pro\\MyProjects\\Practica1s12015_2012126012\\src\\ListaDatos.java"
 "C:\\Users\\Elvis\\Documents\\JCreator Pro\\MyProjects\\Practica1s12015_2012126012\\src\\ListaPlantas.java"
+"C:\\Users\\Elvis\\Documents\\JCreator Pro\\MyProjects\\Practica1s12015_2012126012\\src\\MatrizOrtogonal.java"
 "C:\\Users\\Elvis\\Documents\\JCreator Pro\\MyProjects\\Practica1s12015_2012126012\\src\\NodoDatos.java"
 "C:\\Users\\Elvis\\Documents\\JCreator Pro\\MyProjects\\Practica1s12015_2012126012\\src\\NodoMatriz.java"
 "C:\\Users\\Elvis\\Documents\\JCreator Pro\\MyProjects\\Practica1s12015_2012126012\\src\\NodoPlanta.java"

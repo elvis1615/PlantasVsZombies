@@ -10,14 +10,18 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class VentanaDatos extends JFrame {
 
+public class VentanaDatos extends JFrame {
+	Jugador jugador;
 	JLabel name,cantidad;
 	JTextField nombre,numero,campo,valorcampo;
-	JButton aceptar,agregarCampo,agrega,cancelar;
+	JButton aceptar,agregarCampo,agrega,cancelar,guardar;
 	JFrame nuevoDato;
 	
-    public VentanaDatos() {
+    public VentanaDatos( Boolean zombie) {
+    	
+    	
+    	
     	setResizable(false);
     	setLayout(null);
     	setSize(500,530);
@@ -64,7 +68,9 @@ public class VentanaDatos extends JFrame {
     	valorcampo=new JTextField();
     	valorcampo.setBounds(110,60,150,25);
     	nuevoDato.add(valorcampo);
-    	
+    	guardar =new JButton("guardar");
+    	guardar.setBounds(250,300,150,20);
+    	lugar.add(guardar);
     	agrega=new JButton("Agregar");
     	agrega.setBounds(30,130,100,25);
     	cancelar=new JButton("Cancelar");
@@ -78,13 +84,80 @@ public class VentanaDatos extends JFrame {
                nuevoDato.dispose();
             }
         }); 
+        agregarCampo.addActionListener(new ActionListener() {
+ 		public void actionPerformed(ActionEvent e)
+            {
+               if(!jugador.datos.estaVacia())
+               	{
+               			nuevoDato.setVisible(true);
+               	}
+               	else
+               	{
+               	JOptionPane.showMessageDialog(null,"aun no se a agregado nombre y numero");
+               	}
+            }
+        }); 
+        	
+        jugador=new Jugador(zombie);
+        agrega.addActionListener(new ActionListener() {
+ 		public void actionPerformed(ActionEvent e)
+            {
+              try
+              	{
+              		AGREGARCAMPO(campo.getText().toString(),valorcampo.getText().toString());
+              		campo.setText("");
+              		valorcampo.setText("");
+              		System.out.print("se agrego");
+              	}
+              catch(Exception ex)
+              {
+              	JOptionPane.showMessageDialog(null,"a sucedido un error"+ex);
+              }
+            }
+        }); 
+        	
+        aceptar.addActionListener(new ActionListener() {
+ 		public void actionPerformed(ActionEvent e)
+            {
+              try
+              	{
+              	jugador.datos.insertar("nombre ",nombre.getText().toString());
+               jugador.datos.insertar("cantidad ", numero.getText().toString());
+              	}
+              catch(Exception ex)
+              {
+              	JOptionPane.showMessageDialog(null,"a sucedido un error"+ex);
+              }
+              aceptar.setEnabled(false);
+                
+            }
+        }); 
+        
+        guardar.addActionListener(new ActionListener() {
+ 		public void actionPerformed(ActionEvent e)
+            {
+              if(zombie)
+              {
+              Principal.jugadores[2]=jugador;
+              }
+              else
+              {
+              	Principal.jugadores[1]=jugador;
+              }
+              
+              dispose();
+              
+            }
+        });
+        
     	
     }
     
-    void mostrar()
+    void  AGREGARCAMPO(String campo,String dato)
     {
-    	nuevoDato.setVisible(true);
+    jugador.datos.insertar(campo,dato);
     }
     
+
     
 }

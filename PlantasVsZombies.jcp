@@ -50,6 +50,10 @@
 				<folder>src</folder>
 			</fileitem>
 			<fileitem>
+				<path>src\MatrizOrtogonal.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
 				<path>src\NodoDatos.java</path>
 				<folder>src</folder>
 			</fileitem>
